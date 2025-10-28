@@ -25,14 +25,14 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col items-center text-center gap-8">
           <div
-            className={`relative w-32 h-32 md:w-40 md:h-40 transition-all duration-1000 ${isLoaded ? "animate-scale-in" : "opacity-0"}`}
+            className={`relative w-32 h-32 md:w-64 md:h-64 transition-all duration-1000 ${isLoaded ? "animate-scale-in" : "opacity-0"}`}
           >
             <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-full blur-xl opacity-50 animate-glow"></div>
             <Image
-              src="/professional-developer-portrait-photo.jpg"
+              src="/avatar.jpg"
               alt="Farhan Rakhmat Bachtiar"
               fill
-              className="rounded-full object-cover border-4 border-primary shadow-lg relative z-10"
+              className="rounded-full object-cover shadow-lg relative z-10"
               priority
             />
           </div>

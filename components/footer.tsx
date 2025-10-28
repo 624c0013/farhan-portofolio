@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Github, Linkedin, Twitter, Instagram } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -45,11 +45,11 @@ export default function Footer() {
               <a href="https://github.com/624c0013" target="_blank" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
+              <a href="https://github.com/624c0013" target="_blank" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
+              <a href="https://instagram.com/farhanrb_" target="_blank" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
+                <Instagram size={20} />
               </a>
             </div>
           </div>
