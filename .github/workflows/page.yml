@@ -38,7 +38,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm intall
+        run: npm@5
 
       # 3. Build and export static site
       - name: Build
