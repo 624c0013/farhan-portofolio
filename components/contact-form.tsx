@@ -37,7 +37,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-          Name
+          Nama
         </label>
         <Input
           id="name"
@@ -45,7 +45,7 @@ export default function ContactForm() {
           type="text"
           value={formData.name}
           onChange={handleChange}
-          placeholder="Your name"
+          placeholder="Nama Anda"
           required
         />
       </div>
@@ -60,14 +60,14 @@ export default function ContactForm() {
           type="email"
           value={formData.email}
           onChange={handleChange}
-          placeholder="your@email.com"
+          placeholder="email@anda.com"
           required
         />
       </div>
 
       <div>
         <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-          Subject
+          Subjek
         </label>
         <Input
           id="subject"
@@ -75,33 +75,33 @@ export default function ContactForm() {
           type="text"
           value={formData.subject}
           onChange={handleChange}
-          placeholder="What is this about?"
+          placeholder="Tentang apa ini?"
           required
         />
       </div>
 
       <div>
         <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-          Message
+          Pesan
         </label>
         <Textarea
           id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
-          placeholder="Your message here..."
+          placeholder="Pesan Anda di sini..."
           rows={6}
           required
         />
       </div>
 
       <Button type="submit" className="w-full">
-        Send Message
+        Kirim Pesan
       </Button>
 
       {submitted && (
         <div className="p-4 bg-green-50 dark:bg-green-950 text-green-800 dark:text-green-200 rounded-md">
-          Thank you for your message! I'll get back to you soon.
+          Terima kasih atas pesan Anda! Saya akan segera menghubungi Anda.
         </div>
       )}
     </form>

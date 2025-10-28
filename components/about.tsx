@@ -18,26 +18,31 @@ export default function About() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">About Me</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">Tentang Saya</h2>
 
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="flex flex-col gap-6">
             <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
-              <Image src="/developer-working-at-desk-coding.jpg" alt="Farhan working on projects" fill className="object-cover" />
+              <Image
+                src="/developer-working-at-desk-coding.jpg"
+                alt="Farhan sedang mengerjakan proyek"
+                fill
+                className="object-cover"
+              />
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm Farhan Rakhmat Bachtiar, a semester 3 Informatika student passionate about web development. I'm
-              actively learning modern web technologies and building projects to strengthen my skills in creating
-              beautiful and functional digital experiences.
+              Saya Farhan Rakhmat Bachtiar, mahasiswa Informatika semester 3 yang bersemangat tentang web development.
+              Saya aktif belajar teknologi web modern dan membangun proyek untuk memperkuat keterampilan saya dalam
+              menciptakan pengalaman digital yang indah dan fungsional.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open source, or sharing
-              knowledge with the developer community.
+              Ketika tidak sedang coding, Anda bisa menemukan saya menjelajahi teknologi baru, berkontribusi pada open
+              source, atau berbagi pengetahuan dengan komunitas developer.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold text-foreground mb-8">Skills & Proficiency</h3>
+            <h3 className="text-2xl font-semibold text-foreground mb-8">Keahlian & Tingkat Kemampuan</h3>
             <div className="space-y-6">
               {skills.map((skill) => (
                 <div

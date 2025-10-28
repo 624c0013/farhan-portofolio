@@ -7,48 +7,48 @@ export default function PortfolioGrid() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with product catalog, shopping cart, and payment integration.",
+      title: "Platform E-Commerce",
+      description: "Solusi e-commerce full-stack dengan katalog produk, keranjang belanja, dan integrasi pembayaran.",
       tags: ["Next.js", "React", "Stripe", "PostgreSQL"],
       link: "https://github.com/624c0013",
       image: "/ecommerce-shopping-cart-interface.jpg",
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team features.",
+      title: "Aplikasi Manajemen Tugas",
+      description: "Aplikasi manajemen tugas kolaboratif dengan pembaruan real-time dan fitur tim.",
       tags: ["React", "Firebase", "Tailwind CSS"],
       link: "https://github.com/624c0013",
       image: "/task-management-dashboard.png",
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application with real-time data, forecasts, and location-based features.",
+      title: "Dashboard Cuaca",
+      description: "Aplikasi cuaca responsif dengan data real-time, prakiraan, dan fitur berbasis lokasi.",
       tags: ["Next.js", "API Integration", "Charts"],
       link: "https://github.com/624c0013",
       image: "/weather-app-dashboard.png",
     },
     {
       id: 4,
-      title: "Blog Platform",
-      description: "A modern blogging platform with markdown support, comments, and social sharing capabilities.",
+      title: "Platform Blog",
+      description: "Platform blogging modern dengan dukungan markdown, komentar, dan kemampuan berbagi sosial.",
       tags: ["Next.js", "MDX", "Supabase"],
       link: "https://github.com/624c0013",
       image: "/blog-platform-interface.jpg",
     },
     {
       id: 5,
-      title: "Design System",
-      description: "A comprehensive design system and component library for consistent UI across projects.",
+      title: "Sistem Desain",
+      description: "Sistem desain komprehensif dan perpustakaan komponen untuk UI yang konsisten di seluruh proyek.",
       tags: ["React", "Storybook", "TypeScript"],
       link: "https://github.com/624c0013",
       image: "/design-system-components.png",
     },
     {
       id: 6,
-      title: "Analytics Dashboard",
-      description: "An interactive analytics dashboard with data visualization and real-time metrics.",
+      title: "Dashboard Analitik",
+      description: "Dashboard analitik interaktif dengan visualisasi data dan metrik real-time.",
       tags: ["React", "Recharts", "Node.js"],
       link: "https://github.com/624c0013",
       image: "/analytics-dashboard-charts.png",
@@ -85,7 +85,7 @@ export default function PortfolioGrid() {
             </div>
             <Link href={project.link} target="_blank">
               <Button variant="outline" className="w-full bg-transparent">
-                View Project
+                Lihat Proyek
               </Button>
             </Link>
           </CardContent>

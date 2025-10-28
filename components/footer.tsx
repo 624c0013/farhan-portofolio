@@ -10,29 +10,29 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-foreground mb-2">Portfolio</h3>
+            <h3 className="text-lg font-bold text-foreground mb-2">Portofolio</h3>
             <p className="text-muted-foreground">
-              Crafting beautiful digital experiences with modern web technologies.
+              Menciptakan pengalaman digital yang indah dengan teknologi web modern.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-foreground mb-4">Tautan Cepat</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
-                  Home
+                  Beranda
                 </Link>
               </li>
               <li>
                 <Link href="/portfolio" className="text-muted-foreground hover:text-primary transition-colors">
-                  Portfolio
+                  Portofolio
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  Contact
+                  Kontak
                 </Link>
               </li>
             </ul>
@@ -40,9 +40,9 @@ export default function Footer() {
 
           {/* Social Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Follow Me</h4>
+            <h4 className="font-semibold text-foreground mb-4">Ikuti Saya</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
+              <a href="https://github.com/624c0013" target="_blank" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
                 <Github size={20} />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
@@ -57,7 +57,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} My Portfolio. All rights reserved.</p>
+          <p>&copy; {currentYear} Portofolio Saya. Semua hak dilindungi.</p>
         </div>
       </div>
     </footer>

@@ -8,10 +8,10 @@ export default function ContactPage() {
       <Navigation />
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Get in Touch</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Hubungi Saya</h1>
           <p className="text-lg text-muted-foreground mb-12">
-            Have a project in mind or want to collaborate? I'd love to hear from you. Fill out the form below and I'll
-            get back to you as soon as possible.
+            Punya proyek dalam pikiran atau ingin berkolaborasi? Saya ingin mendengar dari Anda. Isi formulir di bawah
+            ini dan saya akan menghubungi Anda sesegera mungkin.
           </p>
           <ContactForm />
         </div>

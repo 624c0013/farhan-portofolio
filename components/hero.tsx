@@ -42,11 +42,11 @@ export default function Hero() {
               Farhan Rakhmat Bachtiar
             </h1>
             <p className="text-lg md:text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent font-semibold mb-6">
-              Beginner Developer | Web Development Enthusiast
+              Developer Pemula | Penggemar Web Development
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 text-balance max-w-2xl">
-              Passionate about creating beautiful, functional, and user-friendly digital experiences. Currently learning
-              web development with HTML, CSS, JavaScript, and React.
+              Bersemangat dalam menciptakan pengalaman digital yang indah, fungsional, dan user-friendly. Saat ini
+              sedang belajar web development dengan HTML, CSS, JavaScript, dan React.
             </p>
           </div>
 
@@ -55,12 +55,12 @@ export default function Hero() {
           >
             <Link href="/portfolio">
               <Button size="lg" className="btn-accent w-full sm:w-auto">
-                View My Work
+                Lihat Karya Saya
               </Button>
             </Link>
             <Link href="/contact">
               <Button size="lg" className="btn-accent-outline w-full sm:w-auto">
-                Get in Touch
+                Hubungi Saya
               </Button>
             </Link>
           </div>

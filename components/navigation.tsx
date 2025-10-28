@@ -8,9 +8,9 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/portfolio", label: "Portfolio" },
-    { href: "/contact", label: "Contact" },
+    { href: "/", label: "Beranda" },
+    { href: "/portfolio", label: "Portofolio" },
+    { href: "/contact", label: "Kontak" },
   ]
 
   return (
@@ -19,7 +19,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-primary">
-            Portfolio
+            Portofolio
           </Link>
 
           {/* Desktop Navigation */}
